@@ -1,16 +1,54 @@
+/* Navbar */
+
+.navbar-brand {
+    font-family: Tekton Pro;
+    font-size: 25px;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #fff;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
+
+
+/* Jumbotron */
+
 .jumbotron {
     padding-top: 5.5rem;
     padding-bottom: 0.3px;
     background: linear-gradient(#a75de7, #e3cff5, #a75de7);
 }
 
+
+/*Projects  */
+
 #projects {
     background-color: #e5dbee;
 }
 
+
+/*Section  */
+
 section {
-    padding-top: 4rem;
+    padding-top: 4.5rem;
 }
+
+
+/* Footer dan Copyright */
 
 .footer {
     padding-top: 2rem;
@@ -20,7 +58,7 @@ section {
 }
 
 .copyright {
-    padding-top: 1px;
-    padding-bottom: 1x;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: #723dc7;
 }
